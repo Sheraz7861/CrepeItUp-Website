@@ -1,43 +1,66 @@
-body{
+*{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
     font-family: sans-serif;
 }
 
-/*========== MENU ==========*/
+/*========== NAV ==========*/
 
-#menu{
-    background-color: dimgrey;
-    height: 100px;
+nav{
+    background: #fbefa2;
+    height: 80px;
+    width: 100%;
 }
 
-#menu ul{
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;  /* margin removes white spacing on top off menu list */
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 100px;
+    font-weight: bold;
 }
 
-#menu li{
-    display: inline-block;  /* makes an unordered list display next to one another */
+nav ul{
+    float: right;
+    margin-right: 20px;
 }
 
-#menu a{
-    letter-spacing: 1px;
-    text-decoration: none;
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-transform: uppercase;
-    text-align: center;
-    font-size: 20px;
-    line-height: 100px;  /* must be same as height for centralisation vertically */
-    color: white;
-    
-    padding: 0 50px;
-    border: none;
-    display: block;
 }
 
-#menu a:hover{
-    background-color: #313131ff;
+a.active,a:hover{
+    background: #f9e66c;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
 }
 
 /*========== HEADER ==========*/
@@ -50,38 +73,38 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 40px;
-    color: crimson;
-    background-color: beige;
+    color: #ef7c8e;
+    background-color: #b6e2d3;
 }
 
 #header p{
     margin: 0;
     padding-bottom: 30px;
     text-align: center;
-    color: crimson;
+    color: #ef7c8e;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
-    background-color: beige;
+    background-color: #b6e2d3;
 }
 
 /*========== MAIN ==========*/
 
 #main h1{
     margin: 0;
-    background-color: dimgray;
+    background-color: #fbefa2;
     padding-top: 40px;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
 
 #box1{
     float: left;
     width: 30%;
-    background-color: dimgrey;
+    background-color: #fbefa2;
     padding-left: 100px;
     padding-top: 40px;
 }
@@ -89,7 +112,7 @@ body{
 #box2{
     float: left;
     width: 30%;
-    background-color: dimgray;
+    background-color: #fbefa2;
     padding-left: 50px;
     padding-top: 40px;
 }
@@ -97,7 +120,7 @@ body{
 #box3{
     float: left;
     width: 30%;
-    background-color: dimgray;
+    background-color: #fbefa2;
     padding-left: 40px;
     padding-top: 40px;
 }
@@ -107,21 +130,21 @@ body{
 #box1 h2{
     padding-left: 59px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
 #box2 h2{
     padding-left: 59px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
 #box3 h2{
     padding-left: 59px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
@@ -131,7 +154,7 @@ body{
     padding-right: 115px;
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -139,7 +162,7 @@ body{
     padding-right: 115px;
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -147,7 +170,7 @@ body{
     padding-right: 115px;
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -156,7 +179,7 @@ body{
 #box1 ul{
     padding-right: 125px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #box1 ul li{
@@ -166,7 +189,7 @@ body{
 #box2 ul{
     padding-right: 125px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #box2 ul li{
@@ -176,7 +199,7 @@ body{
 #box3 ul{
     padding-right: 125px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #box3 ul li{
@@ -187,7 +210,7 @@ body{
 
 #copyright{
     height: 130px;
-    background-color: beige;
+    background-color: #b6e2d3;
     width: 100%;
     text-align: center;
     clear: both;
@@ -198,42 +221,50 @@ body{
     font-size: 21px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: crimson;
+    color: #ef7c8e;
     font-weight: 600;
 }
 
 /*========== RESPONSIVE LAYOUT ==========*/
 
-@media only screen and (min-width: 875px){
-    #menu{
-        height: 150px;
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
     }
     
-    #menu a{
-        font-size: 43px;
-        padding-top: 30px;
-        padding-bottom: 12px;
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fbefa2;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
     }
     
-    #header h1{
-        font-size: 70px;
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
     
-    #header p{
-        font-size: 40px;
+    nav ul li a{
+        font-size: 20px;
+    }
+    
+    a:hover,a.active{
+        background: none;
+        color: #ffdd00;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
     }
     
     #main{
         display: flex;
         flex-direction: column;
-    }
-    
-    #main h1{
-        text-align: center;
-        padding: 0;
-        font-size: 60px;
-        padding-top: 30px;
-        font-style: italic;
     }
     
     #box1{
@@ -281,48 +312,45 @@ body{
     #box1 h2{
         text-align: center;
         padding: 0;
-        font-size: 70px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     
     #box2 h2{
         text-align: center;
         padding: 0;
-        font-size: 70px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     
     #box3 h2{
         text-align: center;
         padding: 0;
-        font-size: 70px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     
     #box1 p{
         padding: 0;
         text-align: center;
-        font-size: 25px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 20px;
         padding-bottom: 20px;
     }
     
     #box2 p{
         padding: 0;
         text-align: center;
-        font-size: 25px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 20px;
         padding-bottom: 20px;
     }
     
     #box3 p{
         padding: 0;
         text-align: center;
-        font-size: 25px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 20px;
         padding-bottom: 20px;
     }
     
@@ -331,7 +359,6 @@ body{
         padding-right: 50px;
         padding-left: 50px;
         list-style-type: none;
-        font-size: 30px;
     }
     
     #box1 ul li{
@@ -344,7 +371,6 @@ body{
         padding-right: 50px;
         padding-left: 50px;
         list-style-type: none;
-        font-size: 30px;
     }
     
     #box2 ul li{
@@ -357,15 +383,10 @@ body{
         padding-right: 50px;
         padding-left: 50px;
         list-style-type: none;
-        font-size: 30px;
     }
     
     #box3 ul li{
         padding-top: 15px;
         padding-bottom: 15px;
-    }
-    
-    #copyright p{
-        font-size: 30px;
     }
 }
