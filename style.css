@@ -15,6 +15,8 @@ nav{
     background: #fbefa2;
     height: 80px;
     width: 100%;
+    position: fixed;
+    z-index: 999;
 }
 
 label.logo{
@@ -69,11 +71,10 @@ a.active,a:hover{
 
 #header h1{
     margin: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-size: 40px;
     color: #ef7c8e;
     background-color: #b6e2d3;
@@ -81,14 +82,15 @@ a.active,a:hover{
 
 #header p{
     margin: 0;
-    padding-bottom: 30px;
     text-align: center;
     color: #ef7c8e;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
-    letter-spacing: 1px;
     background-color: #b6e2d3;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*========== MAIN ==========*/
@@ -211,7 +213,7 @@ a.active,a:hover{
 /*========== COPYRIGHT ==========*/
 
 #copyright{
-    height: 130px;
+    height: 150px;
     background-color: #b6e2d3;
     width: 100%;
     text-align: center;
@@ -225,6 +227,7 @@ a.active,a:hover{
     letter-spacing: 1px;
     color: #ef7c8e;
     font-weight: 600;
+    padding-left: 10px;
 }
 
 /*========== MAIN MENU ==========*/
@@ -315,7 +318,21 @@ form{
     text-align: center;
 }
 
-/*========== RESPONSIVE LAYOUT ==========*/
+/*========== MAP ==========*/
+
+#map iframe{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map{
+    background-color: #fbefa2;
+    padding-bottom: 30px;
+}
+
+/*==================== RESPONSIVE LAYOUT ====================*/
 
 @media (max-width: 858px){
     .checkbtn{
@@ -379,7 +396,7 @@ form{
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 60%;
+        width: 90%;
         padding-top: 20px;
     }
     
@@ -387,7 +404,7 @@ form{
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 60%;
+        width: 90%;
         padding-top: 20px;
     }
     
@@ -395,28 +412,28 @@ form{
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 60%;
+        width: 90%;
         padding-top: 20px;
     }
     
     #box1 h2{
         text-align: center;
         padding: 0;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
     
     #box2 h2{
         text-align: center;
         padding: 0;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
     
     #box3 h2{
         text-align: center;
         padding: 0;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
     
