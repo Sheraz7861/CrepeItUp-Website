@@ -332,6 +332,90 @@ form{
     padding-bottom: 30px;
 }
 
+/*========== ADDRESS ==========*/
+
+#address{
+    background-color: #fbefa2;
+}
+
+#address-1{
+    background-color: #fbefa2;
+}
+
+#address-2{
+    background-color: #fbefa2;
+}
+
+#insta{
+    background-color: #fbefa2;
+}
+
+.fa-solid.fa-location-dot{
+    font-size: 30px;
+    padding-left: 123px;
+}
+
+#address h4{
+    float: right;
+    padding-top: 7px;
+    padding-right: 123px;
+    text-transform: uppercase;
+}
+
+#address p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.fa-solid.fa-phone{
+    font-size: 30px;
+    padding-left: 116px;
+}
+
+#address-1 h4{
+    float: right;
+    padding-top: 7px;
+    padding-right: 116px;
+    text-transform: uppercase;
+}
+
+#address-1 p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.fa-solid.fa-envelope{
+    font-size: 30px;
+    padding-left: 115px;
+}
+
+#address-2 h4{
+    float: right;
+    padding-top: 7px;
+    padding-right: 115px;
+    text-transform: uppercase;
+}
+
+#address-2 p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#insta h3{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+#insta a{
+    color: black;
+    font-size: 35px;
+    padding-left: 180px;
+}
+
 /*==================== RESPONSIVE LAYOUT ====================*/
 
 @media (max-width: 858px){
