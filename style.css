@@ -355,6 +355,14 @@ form{
     text-align: center;
 }
 
+#contact h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
 /*========== MAP ==========*/
 
 #map iframe{
