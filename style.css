@@ -23,7 +23,7 @@ label.logo{
     color: black;
     font-size: 40px;
     line-height: 80px;
-    padding-left: 90px;
+    padding-left: 50px;
     font-weight: bold;
     font-style: italic;
     font-family: cur;
@@ -391,7 +391,7 @@ form{
     background-color: #fbefa2;
 }
 
-#insta{
+.insta{
     background-color: #fbefa2;
 }
 
@@ -437,22 +437,27 @@ form{
     padding-top: 5px;
 }
 
-#insta h3{
+.insta h3{
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 10px;
 }
 
-#insta a{
-    color: black;
+.icon-wrapper{
     font-size: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
 .fa-brands.fa-square-instagram{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 5px;
+    color: black;
+}
+
+.fa-brands.fa-tiktok{
+    padding-bottom: 5px;
+    color: black;
 }
 
 /*==================== RESPONSIVE LAYOUT ====================*/
