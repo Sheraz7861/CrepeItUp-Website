@@ -166,6 +166,46 @@ a.active,a:hover{
     padding-top: 40px;
 }
 
+#box4{
+    float: left;
+    width: 30%;
+    background-color: #fbefa2;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#box5{
+    float: left;
+    width: 30%;
+    background-color: #fbefa2;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#box6{
+    float: left;
+    width: 30%;
+    background-color: #fbefa2;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#box7{
+    float: left;
+    width: 30%;
+    background-color: #fbefa2;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#box8{
+    float: left;
+    width: 30%;
+    background-color: #fbefa2;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
 /*====== MAIN TEXT HEADING =====*/
 
 #box1 h2{
@@ -183,6 +223,41 @@ a.active,a:hover{
 }
 
 #box3 h2{
+    padding-left: 59px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+#box4 h2{
+    padding-left: 59px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+#box5 h2{
+    padding-left: 59px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+#box6 h2{
+    padding-left: 59px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+#box7 h2{
+    padding-left: 59px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+#box8 h2{
     padding-left: 59px;
     text-transform: uppercase;
     color: black;
@@ -215,36 +290,44 @@ a.active,a:hover{
     text-transform: uppercase;
 }
 
-/*===== MAIN TEXT LISTS =====*/
-
-#box1 ul{
-    padding-right: 125px;
+#box4 p{
+    padding-right: 115px;
+    padding-top: 20px;
     text-align: center;
     color: black;
+    text-transform: uppercase;
 }
 
-#box1 ul li{
+#box5 p{
+    padding-right: 115px;
     padding-top: 20px;
-}
-
-#box2 ul{
-    padding-right: 125px;
     text-align: center;
     color: black;
+    text-transform: uppercase;
 }
 
-#box2 ul li{
+#box6 p{
+    padding-right: 115px;
     padding-top: 20px;
-}
-
-#box3 ul{
-    padding-right: 125px;
     text-align: center;
     color: black;
+    text-transform: uppercase;
 }
 
-#box3 ul li{
+#box7 p{
+    padding-right: 115px;
     padding-top: 20px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+#box8 p{
+    padding-right: 115px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
 }
 
 /*========== COPYRIGHT ==========*/
@@ -589,39 +672,148 @@ form{
         padding-bottom: 20px;
     }
     
-    #box1 ul{
+    #box4{
+        width: 100%;
         padding: 0;
-        padding-right: 50px;
-        padding-left: 50px;
-        list-style-type: none;
+        margin: 0;
     }
     
-    #box1 ul li{
-        padding-top: 15px;
-        padding-bottom: 15px;
+    #box4 img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        padding-top: 20px;
     }
     
-    #box2 ul{
+    #box4 h2{
+        text-align: center;
         padding: 0;
-        padding-right: 50px;
-        padding-left: 50px;
-        list-style-type: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     
-    #box2 ul li{
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    
-    #box3 ul{
+    #box4 p{
         padding: 0;
-        padding-right: 50px;
-        padding-left: 50px;
-        list-style-type: none;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
     }
     
-    #box3 ul li{
-        padding-top: 15px;
-        padding-bottom: 15px;
+    #box5{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #box5 img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+    #box5 h2{
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #box5 p{
+        padding: 0;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #box6{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #box6 img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+    #box6 h2{
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #box6 p{
+        padding: 0;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #box7{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #box7 img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+    #box7 h2{
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #box7 p{
+        padding: 0;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #box8{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #box8 img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+    #box8 h2{
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #box8 p{
+        padding: 0;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
     }
 }
